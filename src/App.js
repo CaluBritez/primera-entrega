@@ -1,13 +1,13 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import Botonera from "./components/NavBar.js";
-import CajaProductos from "./components/ItemListContainer.js";
+import NavBar from "./components/Cabecera/NavBar.js";
+import CajaProductos from "./components/Cuerpo/ItemListContainer.js";
 
 function App() {
   return (
     <div className="container">
-      <Botonera />
-      <CajaProductos />
+      <NavBar />
+      <CajaProductos text="Aca van a estar los Productos" />
     </div>
   );
 }

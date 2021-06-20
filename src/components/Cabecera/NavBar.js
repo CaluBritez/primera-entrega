@@ -1,7 +1,8 @@
 import React from "react";
 import "./NavBar.css";
-import CartWidget from "./CartWidget.js";
-class Botonera extends React.Component {
+import CartWidget from "./Carrito/CartWidget.js";
+import UserWidget from "./User/UserWidget";
+class NavBar extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -32,9 +33,10 @@ class Botonera extends React.Component {
             </li>
           </ul>
           <CartWidget />
+          <UserWidget />
         </div>
       </nav>
     );
   }
 }
-export default Botonera;
+export default NavBar;

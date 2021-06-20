@@ -6,9 +6,7 @@ class CajaProductos extends React.Component {
     return (
       <div className="container bg-dark mt-2">
         <div className="row align-items-center forma_provisoria">
-          <h1 className="col text-white text-center">
-            Aca van a estar los productos
-          </h1>
+          <h1 className="col text-white text-center">{this.props.text}</h1>
         </div>
       </div>
     );
