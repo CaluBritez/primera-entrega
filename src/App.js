@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="container">
       <NavBar />
-      <CajaProductos text="Aca van a estar los Productos" />
+      <CajaProductos />
     </div>
   );
 }
